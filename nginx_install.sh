@@ -14,7 +14,7 @@ apt-get autoremove
 wget http://nginx.org/download/nginx-1.13.12.tar.gz
 tar xvf nginx-1.13.12.tar.gz
 cd nginx-1.13.12
-./configure --prefix=/usr/local/bin/nginx --sbin-path=/usr/local/sbin/nginx --with-http_stub_status_module --with-http_ssl_module  #nginxをパスの通ったディレクトリにインストール
+./configure --prefix=/usr/local/bin/nginx --sbin-path=/usr/local/sbin/nginx --with-http_stub_status_module --with-http_ssl_module
 sudo apt-get install --reinstall make
 make
 make install                                                      
